@@ -1,0 +1,443 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* overflow: hidden; */
+}
+
+
+
+/* navbar */
+
+
+h1{
+    margin:2rem 0rem;
+}
+
+
+
+.navbar{
+    margin: 0 12%;
+    background-color: white;
+    /* overflow: hidden; */
+}
+
+
+.nav-item{
+    padding: 0 1rem;
+    font-size: 80%;
+}
+
+.nav-link{
+    color: black!important;
+}
+
+.nav-link:hover{
+    color: #0f86fe!important;
+}
+
+
+.navbar-toggler{
+    background-color:#0f86fe;  
+}
+
+
+/* home */
+
+.home{
+    
+    background-color: gray;
+    padding:0 1.8rem;
+}
+
+h1{
+    margin: 2% 0;
+}
+
+h6{
+    color: #0f86fe;
+}
+
+.homecontent{
+    margin: 21% 5%;
+}
+
+.homeButton{
+    background: #0f86fe;
+    color: white;
+    padding: 7px 10px;
+    margin: 2% 0;
+    border: none;
+}
+
+.homep{
+    line-height: 2;
+    font-size: 120%;
+}
+
+
+/* Features */
+
+.part1{
+    background-color: #0f86fe;
+    padding:2rem ;
+}
+
+.part2{
+    background-color: #3e94ea;
+    padding:2rem ;
+}
+
+.part3{
+    background-color: #5ea2e6;
+    padding:2rem ;
+}
+
+h3{
+    color: white;
+    line-height: 2;
+}
+
+p{
+    color: white;
+    line-height: 2;
+}
+
+.featureButton{
+    background: #0f86fe;
+    color: white;
+    padding: 7px 10px;
+    margin: 2% 0;
+    border-color: white;
+}
+
+.day{
+    background-color: gray;
+    color: black;
+    padding: 0.5rem 1rem;
+}
+
+.time{
+    color: black;
+    padding-left: 10%;
+}
+
+table{
+table-layout: auto;
+width: 100%;
+border-collapse: separate;
+border-spacing: 0 10px;
+}
+
+.opening{
+    margin: 1rem 0;
+}
+
+.right{
+    color: #0f86fe;
+}
+
+hr{
+        height: 3px;
+        background-color: #0f86fe;
+        border: none;
+     	width:4rem;
+         text-align:center;
+         margin-left:0
+}
+
+.featuresp2{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.clientsp{
+    color: black;
+}
+
+.fourteen{
+    color: black;
+}
+
+.person{
+height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.personparent{
+    text-align: right;
+}
+
+.persondetails{
+    text-align: left;
+}
+
+.clientimg{
+    background-color: grey;
+    width: 100%;
+    height: 420px;
+}
+
+.clientdetail{
+    padding: 1rem 1rem;
+}
+
+
+/* team */
+
+.team{
+    text-align: left;
+}
+
+.card{
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+}
+
+
+.card-body{
+    padding: 4% 0;
+}
+
+.member{
+    height: 200px;
+  width: 100%;
+  background-color: #bbb;
+  display: inline-block;
+  
+}
+
+.teamhr{
+    text-align: center;
+    margin: auto;
+}
+
+.cardp{
+    color: #0f86fe;
+}
+
+.social{
+    color: #0f86fe;
+}
+
+.card{
+    margin-bottom: 10%;
+}
+
+
+/* pages */
+
+.pages{
+    text-align: center;
+    background-color: #0b2b4c;
+    padding: 2rem 0;
+}
+
+
+.pagesperson{
+      height: 100px;
+      width: 100px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      margin:1.5rem 0;
+    }
+
+.pagesp{
+    line-height: 2;
+}
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 1rem 1rem;
+}
+
+.carousel-indicators{
+    bottom: 2px;
+    margin-bottom: 0;
+    padding: 2px 0;
+}
+
+.carousel-indicators .active{
+    width: 14px;
+    height: 14px;
+    background-color: #0f86fe;
+    
+}
+
+
+/* hopital_details */
+
+.hospital_details{
+    margin:5% 0;
+}
+
+
+
+.hospital_container{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+
+.hospital_card{
+    margin-left: 0;
+}
+
+
+.card-header{
+    padding: 0;
+    padding-left: 5px;
+}
+
+.detailcard{
+    background-color: #0f86fe;
+    text-align: left;
+}
+
+.detailp{
+    margin-bottom: 0
+}
+
+.btn{
+    display: inline-block;
+    color: white;
+    background-color: #0f86fe;
+    margin-left:auto!important;
+    padding: 0;
+}
+
+.hospital_image{
+    display: inline-block;
+    float: left;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 1rem;
+    background-color: gray;
+}
+
+.hospital_p{
+    color: black;
+}
+
+.hospital_p p {
+    display: inline-block;
+}
+
+.departh6{
+    display: inline-block;
+    color: black;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.threeBoxes{
+    text-align: left;
+    width: 100%;
+}
+
+.boxes{
+    float: left;
+    display: inline;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    background-color: #126cc7;
+    padding: 0.5rem 1.2rem;
+    width: 33%;
+    margin-bottom: 2rem;
+}
+
+
+.boximage{
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+}
+
+
+/* blogs */
+
+.blogimg{
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+}
+
+
+.blogdate{
+    background-color: #0f86fe;
+    width: 20%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+
+/* contact */
+
+.contact{
+    margin: 5% 0;
+}
+
+.blackbg{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+
+/* copyright */
+
+.copyright{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+
+
+
+/* media queries */
+
+
+
+@media only screen and (max-width: 575px) {
+    .navbar {
+        margin: 0;
+    }
+  }
+
+  @media only screen and (max-width: 927px) {
+    .navbar {
+        margin: 0;
+    }
+
+    .homecontent{
+        padding-left: 10px;
+        padding-right: 2.5rem;
+    }
+}
+
+    @media only screen and (max-width: 1125px)
+    {
+        .nav-item{
+            padding: 0;
+            font-size: 80%;
+        }
+    }
+
+    
+
+
+  }
+
+  
+
+
